@@ -1,7 +1,7 @@
 # build the ui
 import streamlit as st
 from transformers import pipeline
-st.title('Sentiment Analyser App project')
+st.title('Sentiment Analyser App')
 st.write('Welcome to my sentiment analysis app!')
 form = st.form(key='sentiment-form')
 user_input = form.text_area('Enter your text')
